@@ -1,0 +1,30 @@
+#toolbar,.nexmoe-item,.mdui-typo.mdui-shadow-3 {
+    opacity: 90%;
+}
+
+.mdui-fab.mdui-fab-fixed.mdui-ripple.mdui-color-theme-accent {
+    opacity: 70%;
+}
+
+.mdui-fab.mdui-fab-fixed.mdui-ripple.mdui-color-theme-accent:hover {
+    opacity: 90%;
+}
+
+.mdui-typo.mdui-shadow-3.markdown,.mdui-typo.mdui-shadow-3{
+    background-color: white;
+    opacity: 90%;
+    border-radius: 5px;
+    box-shadow: 0 0.5em 3em rgb(161 177 204 / 40%) !important;
+}
+
+pre{
+    background-color: aliceblue;
+}
+
+.nexmoe-item{
+    margin: 0 !important;
+}
+
+.mdui-toolbar{
+    margin-top: 60px !important
+}
