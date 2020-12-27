@@ -17,11 +17,6 @@ var browser = {
     language: (navigator.browserLanguage || navigator.language).toLowerCase()
 }
 if (!browser.versions.mobile) {//判断是否是移动设备打开。browser代码在下面
-    //手机端关闭字幕(延迟性)
-    window.onload = function () {
-        setTimeout(function () { document.querySelector('meting-js').aplayer.lrc.hide(); }, 3000);
-    }
-    //end
     //鼠标点击效果start----------
     /*
      * 鼠标点击特效，canvas点击效果，第二版
@@ -118,4 +113,10 @@ if (!browser.versions.mobile) {//判断是否是移动设备打开。browser代�
     }
     //鼠标点击效果end----------
 
+} else {
+    //手机端关闭字幕(延迟性)start-----------
+    window.onload = function () {
+        setTimeout(function () { document.querySelector('meting-js').aplayer.lrc.hide(); }, 3000);
+    }
+    //手机端关闭字幕(延迟性)end-----------
 }
