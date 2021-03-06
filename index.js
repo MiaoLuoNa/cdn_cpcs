@@ -115,7 +115,11 @@ if (!browser.versions.mobile) {//判断是否是移动设备打开。browser代�
     //鼠标点击效果end----------
 
 } else {
-    document.getElementById("c_n4").style.display = "none";
+    var idObject = document.getElementById('c_n4');
+
+    if (idObject != null)
+
+          idObject.parentNode.removeChild(idObject);
     //手机端关闭字幕(延迟性)start-----------
     window.onload = function () {
         setTimeout(function () { document.querySelector('meting-js').aplayer.lrc.hide(); }, 3000);
