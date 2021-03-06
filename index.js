@@ -18,6 +18,7 @@ var browser = {
 }
 if (!browser.versions.mobile) {//判断是否是移动设备打开。browser代码在下面
     //鼠标点击效果start----------
+    <script type="text/javascript" src="https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
     /*
      * 鼠标点击特效，canvas点击效果，第二版
      * 原文地址：https://www.iowen.cn/canvas-click-effect-second-edition
