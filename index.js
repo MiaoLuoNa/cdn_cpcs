@@ -18,7 +18,7 @@ var browser = {
 }
 if (!browser.versions.mobile) {//判断是否是移动设备打开。browser代码在下面
 
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/CuteCatXiao/cdn_cpcs@main/css/szgotop.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/CuteCatXiao/cdn_cpcs@main/js/szgotop.js"></script>
 
     //鼠标点击效果start----------
     /**
