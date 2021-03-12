@@ -1,3 +1,4 @@
+
 #toolbar,.nexmoe-item,.mdui-typo.mdui-shadow-3 {
     opacity: 90%;
 }
@@ -28,3 +29,5 @@ pre{
 .mdui-toolbar{
     margin-top: 60px !important
 }
+
+@import "https://files.cnblogs.com/files/runtu/szgotop.css"
