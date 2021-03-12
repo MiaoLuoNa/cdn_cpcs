@@ -125,15 +125,14 @@ if (!browser.versions.mobile) {//判断是否是移动设备打开。browser代�
     //     }, 3000);
     // }
     //手机端关闭字幕(延迟性)end-----------
-
-    document.onreadystatechange = subSomething;//当页面加载状态改变的时候执行这个方法.
-    function subSomething() {
-        if (document.readyState == "complete")  //当页面加载状态
-        {
-            document.querySelector('meting-js').aplayer.lrc.hide();
-            var idObject = document.getElementById('c_n4');
-            if (idObject != null)
-                idObject.parentNode.removeChild(idObject);
-        }
+    window.onload = function () {
+        setTimeout(function () {
+            if (document.querySelector('meting-js').aplayer) {
+                document.querySelector('meting-js').aplayer.lrc.hide();
+                var idObject = document.getElementById('c_n4');
+                if (idObject != null)
+                    idObject.parentNode.removeChild(idObject);
+            }
+        }, 2000);
     }
 }
