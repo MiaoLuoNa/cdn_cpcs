@@ -140,3 +140,4 @@ if (!browser.versions.mobile) {//判断是否是移动设备打开
     console.log('\n' + ' %c CPCS_log' + ' %c 字幕已关闭 ' + '\n', 'color: #fadfa3; background: #030307; padding:5px 0;', 'color: black; background: #fadfa3; padding:5px 0;');
 
 }
+console.log('\n' + ' %c OneManager' + ' %c https://github.com/qkqpttgf/OneManager-php ' + '\n', 'color: #fadfa3; background: #030307; padding:5px 0;', 'background: #fadfa3; padding:5px 0;');
